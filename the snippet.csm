@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Snippet schemaVersion="1.0">
+
+	<Registration>
+		<Abbreviation>tsnipp</Abbreviation>
+		<Description></Description>
+		<Procedures></Procedures>
+		<Language>SAS</Language>
+		<Version></Version>
+	</Registration>
+
+	<CodeTemplate><![CDATA[data _null_;
+ put "hej";
+run;
+
+	]]></CodeTemplate>
+
+</Snippet>
