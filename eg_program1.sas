@@ -1,3 +1,3 @@
 data _null_;
-	test="hej!";
+	test="hej!!";
 run;
