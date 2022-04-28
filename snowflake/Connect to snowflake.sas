@@ -1,5 +1,5 @@
 /*https://go.documentation.sas.com/doc/th/pgmsascdc/v_025/acreldb/p19i7uzcbso1szn1pczxn88co3g1.htm*/
-
+/*some code*/
 libname mysnow snow server='rh33561.west-europe.azure.snowflakecomputing.com'
 	db=PATRIC
 	warehouse=COMPUTE_WH
