@@ -9,8 +9,12 @@ run;
 If data is being loaded from a machine that is not in the cloud, 
 it must be copied to a cloud storage location, called a stage, 
 before it can be loaded into the target database table
-bl_internal_stage='@~' references your own user staging area (there are named, user and table stages in Snowflake)
-BL_COMRESS=yes if your SAS environment is on-premises and you need to minimize the size of the load file. 
+
+bl_internal_stage='@~' references your own user staging area 
+(there are named, user and table stages in Snowflake)
+
+BL_COMRESS=yes if your SAS environment is on-premises and you 
+need to minimize the size of the load file. 
 
 */
 
@@ -36,4 +40,6 @@ proc sql;
 							"Weight" double,"Wheelbase" double,
 							"Length" double)) by x1;
 quit;
+
+
 

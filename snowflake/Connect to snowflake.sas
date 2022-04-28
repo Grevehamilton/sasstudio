@@ -1,3 +1,5 @@
+/*https://go.documentation.sas.com/doc/th/pgmsascdc/v_025/acreldb/p19i7uzcbso1szn1pczxn88co3g1.htm*/
+
 libname mysnow snow server='rh33561.west-europe.azure.snowflakecomputing.com'
 	db=PATRIC
 	warehouse=COMPUTE_WH
@@ -26,7 +28,7 @@ READBUFF = specifies the number of rows of DBMS data to read into the buffer. Bu
 INSERTBUFF= specifies the number of rows in a single DBMS insert. You need to experiment to find the right value.
 */
 
-
+/*https://go.documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/casref/p183rli8obtde3n10y9bzbrpwnsh.htm*/
 /* Creating Snowflake library for Cloud Analytics Services */
 caslib cassnow desc='Snowflake Caslib' 
      dataSource=(srctype='snowflake'
