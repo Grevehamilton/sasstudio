@@ -1,3 +1,4 @@
+/*some documentation*/
 import pandas as pd
 snowclass = SAS.sd2df('mysnow.class') 
 snowclassfit = SAS.sd2df('mysnow.classfit')
