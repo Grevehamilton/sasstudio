@@ -12,7 +12,9 @@ libname mysnow snow server='rh33561.west-europe.azure.snowflakecomputing.com'
 	pw='{SAS002}C3D43A4156C496980B7AA5BC2BB4B655'
 	readbuff=32767
 	insertbuff=32767
-	dbcommit=0;
+	dbcommit=0
+	sql_functions_copy=saslog
+	SQL_FUNCTIONS=ALL;
 
 
 /*
